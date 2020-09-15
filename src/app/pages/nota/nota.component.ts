@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {NoticiaService} from '../../services/noticia.service'
+
 
 @Component({
   selector: 'app-nota',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NotaComponent implements OnInit {
 
-  constructor() { }
+  notas=[];
+  constructor(private nota: NoticiaService) { }
 
   ngOnInit(): void {
+    this.nota.obtenerNota("nota")
+              .subscribe((notaRecibidas:any)=> {
+                this.notas=notaRecibidas.NotaCovid
+              })
   }
 
 }
+
+

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { NacionalComponent } from '../pages/nacional/nacional.component';
 import { InternacionalComponent } from '../pages/internacional/internacional.component';
+import { NotaComponent } from '../pages/nota/nota.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,10 @@ const routes: Routes = [
   {
     path: 'internacional',
     component: InternacionalComponent,
+  },
+  {
+    path: 'nota',
+    component: NotaComponent,
   },
 ];
 

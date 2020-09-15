@@ -8,6 +8,7 @@ import { HttpClient, HttpHeaders, HttpParams, HttpRequest, HttpErrorResponse } f
 export class NoticiaService {
   baseUrlInternacional:string="./assets/internacional.json"
   baseUrlNacional:string="./assets/nacional.json"
+  baseUrlNota:string="./assets/nota.json"
 
   constructor(private http: HttpClient) {
 
@@ -31,7 +32,16 @@ export class NoticiaService {
         console.error(error.headers);
       }
      }
-
   }
+  obtenerNota(tipoNota:String) {
+    try {
+      return this.http.get(this.baseUrlNota);
+    } catch(error) {
+      console.error(error);
+      console.error(error.error);
+      console.error(error.headers);
+    }
+  }
+
 }
 
