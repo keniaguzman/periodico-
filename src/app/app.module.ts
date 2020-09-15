@@ -6,12 +6,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NacionalComponent } from './pages/nacional/nacional.component';
 import { InternacionalComponent } from './pages/internacional/internacional.component';
+import { NotaComponent } from './pages/nota/nota.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NacionalComponent,
-    InternacionalComponent
+    InternacionalComponent,
+    NotaComponent
   ],
   imports: [
     BrowserModule,
