@@ -1,0 +1,62 @@
+<div>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://www.eleconomista.com.mx/__export/1599794472469/sites/eleconomista/img/2020/09/10/amlo-250.jpg_596760611.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pide AMLO celebrar con sana distancia el Grito de Independencia</h5>
+              <p class="card-text">El mandatario informó que lanzará 20 vivas esta noche y pidió a la población seguir la ceremonia por televisión, radio e internet.</p>
+            </div>
+            <a href="#" class="btn btn-primary">Ir a nota</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://www.eluniversal.com.mx/sites/default/files/_114371967_eh5zmmkvgaaa1ha.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Histórico: cinco ciclones en el Atlántico al mismo tiempo. Aquí la explicación de este fenómeno</h5>
+              <p class="card-text">En un hecho que no ocurría desde 1971: cinco formaciones tropicales se formaron al mismo tiempo. Dos de ellas son huracanes que podrían poner en riesgo la vida de las personas que viven en las costas del sur de EU.</p>
+            </div>
+            <a href="#" class="btn btn-primary">Ir a nota</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br>
+  <div>
+    <div class="card-deck">
+      <div class="card" *ngFor="let noticia of noticias">
+        <img src="{{noticia.imagen}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{noticia.tituloNota }}</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-body">
+          <span href="#" class="card-link">Card link</span>
+          <span  href="#" class="card-link">Another link</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="row no-gutters bg-light position-relative" *ngFor="let noticia of noticias2">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="{{noticia.imagen}}" class="w-100" alt="...">
+      </div>
+      <div class="col-md-6 position-static p-4 pl-md-0">
+        <h5 class="mt-0">Columns with stretched link</h5>
+        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+        <div class="card-body">
+          <span href="#" class="card-link">Card link</span>
+          <span  href="#" class="card-link">Another link</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

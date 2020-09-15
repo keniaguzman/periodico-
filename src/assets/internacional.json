@@ -1,0 +1,42 @@
+{
+  "PrimerasNoticias":[
+    {
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/10/Jorge_Carlos_Alcocer_Varela_%28cropped%29.jpg",
+      "tituloNota" : "“Vamos bien”, asegura Alcocer sobre atención a pandemia por Covid",
+      "descrpcion" : "El secretario de Salud señaló que está sustentado porque 25 estados se encuentran, desde 2 o 10 semanas, con curvas epidemiológicas en descenso y ningún estado está en riesgo máximo",
+      "pais" :"México",
+      "fecha" : "15/09/20"
+    },
+    {
+      "imagen": "https://eldiariony.com/wp-content/uploads/sites/2/2018/10/145649221.jpg?quality=60&strip=all&w=940",
+      "tituloNota" : "Un tribunal de EE.UU. falla a favor de la decisión de Trump de terminar con el programa TPS que protege de la deportación a cientos de miles de inmigrantes",
+      "descrpcion" : "El fallo judicial significa que unos 400.000 inmigrantes deberán encontrar otra forma de permanecer legalmente en Estados Unidos o serán deportados. Se espera una apelación en la Corte Suprema",
+      "pais" :"Estados Unidos",
+      "fecha" : "14/09/20"
+    },
+    {
+      "imagen": "https://est.zetaestaticos.com/cordoba/img/noticias/1/330/1330422_1.jpg",
+      "tituloNota" : "Es una clara violación del derecho internacional: por qué Reino Unido parece dispuesto a arriesgar su reputación por el Brexit",
+      "descrpcion" : "Abrió el marcador en la victoria 2-0 del Wolverhampton sobre el Sheffield Alcanza 31 goles en el torneo.",
+      "pais" :"México",
+      "fecha" : "15/09/20"
+      }
+
+  ],
+  "SegundasNoticias":[
+    {
+      "imagen": "https://images.daznservices.com/di/library/GOAL/1c/e9/raul-jimenez-wolves_qh7r820yf4pq18r37c9tgvqei.jpg?t=-1122774753&quality=100",
+      "tituloNota" : "Raúl Jiménez empieza en grande, anota en el regreso de liga Premier",
+      "descrpcion" : "El gobierno británico presentó el miércoles un proyecto de ley que les permitiría a sus ministros desconocer elementos del acuerdo de salida de la Unión Europea negociado por el mismo Johnson. ¿Por qué? ¿Y con qué consecuencias?",
+      "pais" :"Reino Unido",
+      "fecha" : "14/09/20"
+    },
+    {
+      "imagen": "https://ep01.epimg.net/deportes/imagenes/2019/08/05/actualidad/1565024729_306365_1565025997_noticia_normal.jpg",
+      "tituloNota" : "El esloveno Tadej Pogacar gana la etapa 15 del Tour de Francia",
+      "descrpcion" : "Grand Ccolombier. Tadej Pogacar doblegó al líder general Primoz Roglic en una dramática llegada en la etapa 15 de un Tour de Francia que ha pasado a ser una pulseada particular entre los dos ciclistas eslovenos.",
+      "pais" :"Francia",
+      "fecha" : "13a/09/20"
+    }
+  ]
+}
