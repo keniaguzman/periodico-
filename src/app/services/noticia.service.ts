@@ -33,7 +33,7 @@ export class NoticiaService {
       }
      }
   }
-  obtenerNota(tipoNota:String) {
+  obtenerNota(id:String) {
     try {
       return this.http.get(this.baseUrlNota);
     } catch(error) {

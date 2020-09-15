@@ -9,13 +9,18 @@ import {NoticiaService} from '../../services/noticia.service'
 })
 export class NotaComponent implements OnInit {
 
-  notas=[];
-  constructor(private nota: NoticiaService) { }
+  nota:any={
+    titulo:"",
+    encabezado:"",
+    contenido:"",
+  };
+  constructor(private notaServicio: NoticiaService) { }
 
   ngOnInit(): void {
-    this.nota.obtenerNota("nota")
-              .subscribe((notaRecibidas:any)=> {
-                this.notas=notaRecibidas.NotaCovid
+    this.notaServicio.obtenerNota("nota")
+              .subscribe((notaRecibida:any)=> {
+                console.log(notaRecibida);
+                this.nota=notaRecibida
               })
   }
 
